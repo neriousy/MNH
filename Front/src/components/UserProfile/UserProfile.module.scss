@@ -1,0 +1,32 @@
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userProfile {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.userInfo,
+.titles {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.photo img {
+  width: 300px;
+  height: auto;
+}
+
+.userInfo span,
+.titles span {
+  font-size: 20px;
+  margin: 5px;
+}
+.titles span {
+  font-weight: bold;
+}

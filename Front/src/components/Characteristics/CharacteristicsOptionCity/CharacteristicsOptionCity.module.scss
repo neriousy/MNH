@@ -1,0 +1,52 @@
+.optionContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+
+  label {
+    margin-right: 10px;
+  }
+
+  select {
+    /* Reset */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    /* Personalize */
+    width: 30%;
+    height: 3em;
+    padding: 0 1em 0 1em;
+    margin-right: 1em;
+    color: #000;
+    border-radius: 0.25em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    background: transparent;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 15' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 5px;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    background-color: #fff;
+
+    /* <option> colors */
+    option {
+      color: inherit;
+      background-color: #fff;
+    }
+    /* Remove focus outline */
+    &:focus {
+      outline: none;
+    }
+    /* Remove IE arrow */
+    &::-ms-expand:hover {
+      display: none;
+    }
+  }
+}
